@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.googlemap) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
-        //sobirali
+        //sobirali saparov
 
         buildLocationRequest()
         lastlocation()
